@@ -1,0 +1,44 @@
+name: Download File
+
+env:
+  url: https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.2&type=jar
+  file_name: BurpSuitePro-2022.8.2.jar
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Download File
+      run: |
+        curl -LO ${{ env.url }}
+
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ env.file_name }}
+        release_name: ${{ env.file_name }}
+        body: |
+          ${{ env.file_name }}
+
+    - name: Upload File
+      id: upload_file
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./${{ env.file_name }}
+        asset_name: ${{ env.file_name }}
+        asset_content_type: application/octet-stream
