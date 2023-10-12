@@ -1,8 +1,8 @@
 name: Download File
 
 env:
-  url: https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.2&type=jar
-  file_name: BurpSuitePro-2022.8.2.jar
+  url: https://dl.pstmn.io/download/version/9.12.2/win64
+  file_name: postman-9.12.2.exe
 
 on:
   push:
