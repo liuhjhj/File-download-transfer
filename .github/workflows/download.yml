@@ -1,8 +1,8 @@
 name: Download File
 
 env:
-  url: https://dl.pstmn.io/download/version/9.12.2/win64
-  file_name: postman-9.12.2.exe
+  url: https://ramensoftware.com/downloads/7tt_setup.exe
+  file_name: 7tt_setup.exe
 
 on:
   push:
