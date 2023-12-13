@@ -1,8 +1,8 @@
 name: Download File
 
 env:
-  url: https://ramensoftware.com/downloads/7tt_setup.exe
-  file_name: 7tt_setup.exe
+  url: https://artifacts.elastic.co/maven/org/elasticsearch/plugin/x-pack-sql-jdbc/8.11.3/x-pack-sql-jdbc-8.11.3.jar
+  file_name: x-pack-sql-jdbc-8.11.3.jar
 
 on:
   push:
