@@ -1,8 +1,8 @@
 name: Download File
 
 env:
-  url: https://artifacts.elastic.co/maven/org/elasticsearch/plugin/x-pack-sql-jdbc/8.11.3/x-pack-sql-jdbc-8.11.3.jar
-  file_name: x-pack-sql-jdbc-8.11.3.jar
+  url: https://artifacts.elastic.co/maven/org/elasticsearch/plugin/x-pack-sql-jdbc/7.10.2/x-pack-sql-jdbc-7.10.2.jar
+  file_name: x-pack-sql-jdbc-7.10.2.jar
 
 on:
   push:
