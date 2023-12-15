@@ -1,8 +1,8 @@
 name: Download File
 
 env:
-  url: https://artifacts.elastic.co/maven/org/elasticsearch/plugin/x-pack-sql-jdbc/7.10.2/x-pack-sql-jdbc-7.10.2.jar
-  file_name: x-pack-sql-jdbc-7.10.2.jar
+  url: https://download.jetbrains.com/datagrip/DB-232.10203.8-233.11799.296-patch-win.jar
+  file_name: DB-232.10203.8-233.11799.296-patch-win.jar
 
 on:
   push:
