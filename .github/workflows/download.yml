@@ -19,7 +19,7 @@ jobs:
 
     - name: Download File
       run: |
-        curl -o ${{ env.file_name }} ${{ env.url }}
+        wget -O ${{ env.file_name }} ${{ env.url }}
 
     - name: Create Release
       id: create_release
