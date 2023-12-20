@@ -1,7 +1,7 @@
 name: Download File
 
 env:
-  url: https://dl.filehorse.com/win/developer-tools/postman/Postman-win64-10.13.6-Setup.exe?st=weH1L4VPVpTzzYzZatlk8w&e=1703121967&fn=Postman-win64-Setup.exe
+  url: https://dl.filehorse.com/win/developer-tools/postman/Postman-win64-10.13.6-Setup.exe?st=zgKRxFkQnj_WDolUoRG5QQ&e=1703122220&fn=Postman-win64-Setup.exe
   file_name: Postman-win64-10.13.6-Setup.exe
 
 on:
