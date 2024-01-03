@@ -1,8 +1,8 @@
 name: Download File
 
 env:
-  url: https://download-cdn.jetbrains.com/idea/ideaIU-2023.3.1.exe
-  file_name: ideaIU-2023.3.1.exe
+  url: https://download-cdn.jetbrains.com/webstorm/WebStorm-2023.3.2.exe
+  file_name: WebStorm-2023.3.2.exe
 
 on:
   push:
