@@ -1,8 +1,8 @@
 name: Download File
 
 env:
-  url: https://download-cdn.jetbrains.com/webstorm/WebStorm-2023.3.2.exe
-  file_name: WebStorm-2023.3.2.exe
+  url: https://dl.google.com/dl/android/aosp/husky-ap1a.240405.002.b1-factory-d548f99d.zip
+  file_name: husky-ap1a.240405.002.b1-factory-d548f99d.zip
 
 on:
   push:
