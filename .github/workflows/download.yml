@@ -1,8 +1,8 @@
 name: Download File
 
 env:
-  url: https://dl.google.com/dl/android/aosp/husky-ota-ap1a.240405.002-2c9cdda5.zip
-  file_name: husky-ota-ap1a.240405.002-2c9cdda5.zip
+  url: https://download2.typoraio.cn/windows/typora-setup-x64.exe
+  file_name: typora-setup-x64.exe
 
 on:
   push:
