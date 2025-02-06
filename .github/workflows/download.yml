@@ -1,8 +1,8 @@
 name: Download File
 
 env:
-  url: https://download.visualstudio.microsoft.com/download/pr/27bcdd70-ce64-4049-ba24-2b14f9267729/d4a435e55182ce5424a7204c2cf2b3ea/windowsdesktop-runtime-8.0.11-win-x64.exe
-  file_name: windowsdesktop-runtime-8.0.11-win-x64.exe
+  url: https://dl.pstmn.io/download/version/10.13.6/win64
+  file_name: postman-10.13.6.exe
 
 on:
   push:
